@@ -23,7 +23,7 @@ h2 {
 }
 
 p {
-	font-family: "Droid Serif", serif;
+	font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -66,4 +66,30 @@ footer {
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
+a:hover {
+	border-color: white;
 }
